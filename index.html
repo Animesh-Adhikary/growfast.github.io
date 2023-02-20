@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow Fast</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- boxicon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Bootstrap MDB link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+
+    <style>
+        .carousel-item {
+            height: 34rem;
+        }
+
+        .slideshow {
+            padding: 0 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#"><img id="logo" src="testing-img/Grow-Fast.png" alt="logo">
+                <span>Grow Fast</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#catagories">Catagories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Sell Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Counseling</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- slideshow -->
+
+    <section class="slideshow" id="slideshow">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.pexels.com/photos/1679551/pexels-photo-1679551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/3454270/pexels-photo-3454270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/1287089/pexels-photo-1287089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/1062249/pexels-photo-1062249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/2695391/pexels-photo-2695391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/234272/pexels-photo-234272.jpeg" class="d-block w-100"
+                        alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- categories -->
+
+    <section class="catagories" id="catagories">
+        <div class="heading">
+            <h1>Our Catagories</h1>
+            
+            <a href="#"><button type="button" class="btn btn-outline-success"><p>See all</p><i class="bx bx-right-arrow-alt"></i></button> </a>
+        </div>
+
+        <div class="categories-container">
+            <!-- category 1 -->
+            <div style="background: #ffebeb;" class="box">
+                <img src="https://rukminim1.flixcart.com/image/416/416/k4ss2a80/plant-sapling/t/q/g/plspcewkemj-w-1-rolling-nature-original-imafnmhzzdepwgsc.jpeg?q=70"
+                    alt="">
+                <h2>Plants</h2>
+                <span>10 items</span>
+                <i class="bx bx-right-arrow-alt"></i>
+            </div>
+            <!-- category 2 -->
+
+            <div style="background: #fcffdf;" class="box">
+                <img src="https://images.pexels.com/photos/3872428/pexels-photo-3872428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="">
+                <h2>Seeds</h2>
+                <span>10 items</span>
+                <i class="bx bx-right-arrow-alt"></i>
+            </div>
+            <!-- category 3 -->
+
+            <div style="background: #f2f2fc;" class="box">
+                <img style="width:14rem;"
+                    src="https://5.imimg.com/data5/SELLER/Default/2021/3/HQ/ZN/JE/33146483/neem-pesticides-500x500.jpg"
+                    alt="">
+                <h2>Pesticides</h2>
+                <span>5 items</span>
+                <i class="bx bx-right-arrow-alt"></i>
+            </div>
+            <!-- category 4 -->
+            <div style="background: #dcfdf5;" class="box">
+                <img src="testing-img/Urea-PhotoRoom.png-PhotoRoom.png" alt="">
+                <h2>Fertilizers</h2>
+                <span>10 items</span>
+                <i class="bx bx-right-arrow-alt"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- top products -->
+
+    <section class="products" id="products">
+        <div class="products-div">
+            <div class="heading">
+                <h1>Our Popular Products</h1>
+                <a href="#" class="btn"><p >Shop Now </p><i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+            <div class="products-container">
+                <!-- container 1 -->
+                <div class="box">
+                    <div class="bg-image hover-zoom">
+                        <img class="w-100"
+                            src="https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-adenium-plant-desert-rose-grafted-any-color-plant_600x600.jpg?v=1634211546"
+                            alt="">
+                    </div>
+                    <h2> Cloud Farm Adenium Plant (Hybrid, Pack of 1)
+                    </h2>
+                    <h3 class="price"><i class='bx bx-rupee'></i>150</h3>
+                    <i class="bx bx-cart-alt"></i>
+                    <i class="bx bx-heart"></i>
+                    <span class="discount">-57%</span>
+                </div>
+                <!-- container 2 -->
+                <div class="box">
+                    <div class="bg-image hover-zoom">
+
+                        <img class="w-100" src="https://luvflowercake.com/wp-content/uploads/2021/09/50379_jute-wrapped-money-plant.jpeg"
+                        alt="">
+                    </div>
+                    <h2>FURYHUB Money Plant (Hybrid, Pack of 1)
+                    </h2>
+                    <h3 class="price"><i class='bx bx-rupee'></i>115</h3>
+                    <i class="bx bx-cart-alt"></i>
+                    <i class="bx bx-heart"></i>
+                    <span class="discount">-57%</span>
+                </div>
+                <!-- container 3-->
+                <div class="box">
+                    <div class="bg-image hover-zoom">
+
+                        <img class="w-100" src="https://m.media-amazon.com/images/I/71pgHNKxFRL._SL1500_.jpg" alt="">
+                    </div>
+                    <h2>Sakshi Farms Pusa Basmati Paddy 1509, Rice Seeds for Sowing, Farming & Agriculture, 1 KG Seed (1
+                        kg)
+                    </h2>
+                    <h3 class="price"><i class='bx bx-rupee'></i>245</h3>
+                    <i class="bx bx-cart-alt"></i>
+                    <i class="bx bx-heart"></i>
+                    <span class="discount">-57%</span>
+                </div>
+                <!-- container 4 -->
+                <div class="box">
+                    <div class="bg-image hover-zoom">
+
+                        <img class="w-100" src="https://rukminim1.flixcart.com/image/416/416/k0tw13k0/plant-seed/m/w/q/50-global-multicom-water-mellon-seeds-tarbooj-tulip-original-imafkjd9e3a7bwds.jpeg?q=70"
+                            alt="">
+                    </div>
+                    <h2> TULIP WATER MELLON SEEDS / TARBOOJ Seed (50 per packet)
+                    </h2>
+                    <h3 class="price"><i class='bx bx-rupee'></i>114</h3>
+                    <i class="bx bx-cart-alt"></i>
+                    <i class="bx bx-heart"></i>
+                    <span class="discount">-57%</span>
+                </div>
+                <!-- container 5 -->
+                <div class="box">
+                    <div class="bg-image hover-zoom">
+
+                        <img class="w-100" src="https://rukminim1.flixcart.com/image/416/416/l186t8w0/soil-manure/s/n/6/epsom-salt-magnesium-sulphate-for-plant-growth-fertilizer-original-imagcuhtyxefnjnb.jpeg?q=70"
+                            alt="">
+                    </div>
+                    <h2> creative farmer Epsom Salt Magnesium Sulphate for Plant Growth Fertilizer
+                    </h2>
+                    <h3 class="price"><i class='bx bx-rupee'></i>139</h3>
+                    <i class="bx bx-cart-alt"></i>
+                    <i class="bx bx-heart"></i>
+                    <span class="discount">-57%</span>
+                </div>
+                <!-- container 6 -->
+                <div class="box">
+                    <div class="bg-image hover-zoom">
+
+                        <img class="w-100" src="https://rukminim1.flixcart.com/image/416/416/km3s1ow0/soil-manure/r/e/l/100-saaf-fungicide-100gm-upl-saaf-original-imagf2mddkvr5p2g.jpeg?q=70"
+                            alt="">
+                    </div>
+                    <h2>UPL SAAF SAAF FUNGICIDE 100gm( pack of 3pc) Pesticide (0.3 kg, Powder)</h2>
+                    <h3 class="price"><i class='bx bx-rupee'></i>451</h3>
+                    <i class="bx bx-cart-alt"></i>
+                    <i class="bx bx-heart"></i>
+                    <span class="discount">-57%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about">
+        <div class="about">
+            <img src="testing-img/farmer-img2-removebg.png" alt="">
+            <div class="about-text">
+                <h2>Why We Back Bone?</h2>
+                <p>Our Company Grow Fast is A Rapidly Growing Friendly Farmer Chain,Founded In 2023 By Young &
+                    Passionate Boys Brijit Roy And Animesh Adhikary.
+                    Grow Fast creating friendly farmer grow india chain.Hailing from West Bengal,we are known for our
+                    quality and world class service.Our brand envisions to serve India's most go to agriculture
+                    'Grow Fast' in the most friendly farmer.</p>
+                <a href="#" class="btn"><p>Learn More </p><i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- customer Reviews -->
+    <section class="customers" id="customers">
+        <h2>Why Customer's Love Us ?</h2>
+        <div class="customers-container">
+            <!-- Rivew 1 -->
+            <div class="box">
+                <i class="bx bxs-quote-alt-left"></i>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem porro iste dolorum illum reiciendis
+                    minus praesentium doloremque soluta voluptatum aperiam, molestias necessitatibus odio perspiciatis
+                    autem omnis tempore sint culpa vero.</p>
+                <div class="review-profile">
+                    <img src="testing-img/about-img.jpg" alt="">
+                    <h3>Amit Biswas</h3>
+                </div>
+            </div>
+            <!-- Rivew 2 -->
+            <div class="box">
+                <i class="bx bxs-quote-alt-left"></i>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem porro iste dolorum illum reiciendis
+                    minus praesentium doloremque soluta voluptatum aperiam, molestias necessitatibus odio perspiciatis
+                    autem omnis tempore sint culpa vero.</p>
+                <div class="review-profile">
+                    <img src="testing-img/about-img.jpg" alt="">
+                    <h3>Amit Biswas</h3>
+                </div>
+            </div>
+            <!-- Rivew 3 -->
+            <div class="box">
+                <i class="bx bxs-quote-alt-left"></i>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem porro iste dolorum illum reiciendis
+                    minus praesentium doloremque soluta voluptatum aperiam, molestias necessitatibus odio perspiciatis
+                    autem omnis tempore sint culpa vero.</p>
+                <div class="review-profile">
+                    <img src="testing-img/about-img.jpg" alt="">
+                    <h3>Amit Biswas</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer" id="footer">
+        <div class="footer-box">
+            <div class="footer-box">
+                <div>
+                    <a href="#" class="footer-logo"><img id="logo" src="testing-img/Grow-Fast.png" alt="logo">
+                        <img class="footer-side-img" src="testing-img/Grow.png" alt="">
+                        <div class="social-fit">
+                            <div class="social">
+                                <a href="#"><i class="bx bxl-facebook"></i></a>
+                                <a href="#"><i class="bx bxl-twitter"></i></a>
+                                <a href="#"><i class="bx bxl-instagram"></i></a>
+                                <a href="#"><i class="bx bxl-youtube"></i></a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h2>Useful Links</h2>
+                <a href="#">Return Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy</a>
+                <a href="#">Security</a>
+            </div>
+            <div class="footer-box ">
+                <h2>Help</h2>
+                <a href="#" class="payments" id="payments">Payments</a>
+                <a href="#">Shipping</a>
+                <a href="#">Cancellation & Returns</a>
+            </div>
+            <div class="footer-box">
+                <h2>Newsletter</h2>
+                <p>Get 10% Discount with <br> Email Newsletter</p>
+                <form action="">
+                    <i class="bx bxs-envelope"></i>
+                    <input type="email" name="" id="" placeholder="Enter Your Email">
+                    <i class="bx bx-arrow-back bx-rotate-180"></i>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+    <!-- Bootstrap MDB js link -->
+    <script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
+></script>
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!--Link swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- Link js -->
+    <script src="main.js"></script>
+</body>
+
+</html>
