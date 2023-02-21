@@ -1,1 +1,1 @@
-# Grow-Fast-E-Commerce-site-for-farmers-
+# Grow Fast will help farmers to buy and sell crops.
